@@ -13,9 +13,9 @@ def month_length(month, leap_year=False):
                     "August", "October", "December"}:
       return 31
   if month == "February":
-    if not leap_year:
-      return 28
-    else:
-      return 29
+      if not leap_year:
+          return 28
+      else:
+          return 29
   else:
-    return None
+      return None
